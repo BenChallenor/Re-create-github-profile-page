@@ -75,13 +75,43 @@ img {
 }
 
 .username {
-  font-weight: inherit;
+  font-weight: normal;
 }
 
 p {
   padding-top: 1em;
 }
 
-h3 {
+.aside-padding {
   padding-top: 1em;
+  border-bottom: 2px solid grey;
 }
+
+.repo-nav {
+  display: flex;
+}
+
+.repo-nav li {
+  cursor: pointer;
+  display: inline-block;
+  /* removes dots */
+  padding: 1em;
+  border-bottom: 2px solid grey;
+}
+
+.repo-nav li:hover{
+  border-width: 3px;
+}
+
+.repo-nav li:nth-of-type(1) {
+  /* display: inline-block; */
+  /* removes dots */
+  /* padding: 1em; */
+  border-bottom: 3px solid orange;
+  margin-left: 1em;
+}
+
+/* .repo-seperator {
+  width: 80%;
+  margin: 1em;
+} */
