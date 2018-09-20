@@ -13,7 +13,7 @@ body {
 
 header {
   background: #25292E;
-  height: 9%;
+  min-height: 100px;
   color: white;
   display: flex;
   align-items: center;
@@ -39,5 +39,49 @@ header input {
   font-size: 0.5em;
   background: #404448;
   padding: 0.5em;
+  padding-right: 10em;
   border: none;
+  border-radius: 0.2em
+}
+
+main {
+  display: flex;
+}
+
+aside, section {
+  border: 2px solid red;
+  display: inline-block;
+}
+
+aside {
+width: 30%;
+display: inline-block;
+padding: 1em;
+}
+
+section {
+  width: 70%;
+}
+
+
+
+img {
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+.grey-text {
+  color: #666666;
+}
+
+.username {
+  font-weight: inherit;
+}
+
+p {
+  padding-top: 1em;
+}
+
+h3 {
+  padding-top: 1em;
 }
